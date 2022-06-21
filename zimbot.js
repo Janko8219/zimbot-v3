@@ -1298,12 +1298,12 @@ break
 case 'restart': {
              if (!isCreator) throw mess.owner              
              exec(`npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs`)
-             m.reply('*Restarting zimbot....*')
+             m.reply('*Restarting Rolex....*')
              }
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 	    if (isBan) throw mess.ban
-                ZimBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4e12bdfc0fbcbe7d14930.jpg' }, caption: `*Hi Chomie ${m.pushName}*\n\n *Thanks for your support we appreciate you we dont need your money, support us by subscribing to our youtube channel* *DRIPS OFC:* https://www.youtube.com/c/DRIPSOFC ` }, { quoted: m })
+                ZimBotInc.sendMessage(m.chat, { image: { url: 'http://instagram.com/_munavir._' }, caption: `*Hi Bro ${m.pushName}*\n\n *FOLLOW MY INSTAGRAM* *MUNAVIR 🎈:* http://instagram.com/_munavir._ ` }, { quoted: m })
             }
             break            
             case 'chat': {
