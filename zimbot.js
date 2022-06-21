@@ -1303,7 +1303,7 @@ case 'restart': {
 break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
 	    if (isBan) throw mess.ban
-                ZimBotInc.sendMessage(m.chat, { image: { url: 'http://instagram.com/_munavir._' }, caption: `*Hi Bro ${m.pushName}*\n\n *FOLLOW MY INSTAGRAM* *MUNAVIR 🎈:* http://instagram.com/_munavir._ ` }, { quoted: m })
+                ZimBotInc.sendMessage(m.chat, { link: { url: 'http://instagram.com/_munavir._' }, caption: `*Hi Bro ${m.pushName}*\n\n *FOLLOW MY INSTAGRAM* *MUNAVIR 🎈:* http://instagram.com/_munavir._ ` }, { quoted: m })
             }
             break            
             case 'chat': {
@@ -6709,7 +6709,7 @@ case 'listmenu': case 'list': {
        text: `
 *✧ᴜᴘᴛɪᴍᴇ: ${runtime(process.uptime())}*
 ╭━━━━━━━━━━━━━━━━━━╮
-┃         ${global.botname}
+┃         ʀᴏʟʟᴇx
 ┃━━━━━━━━━━━━━━━━━━┃
 ┃
 ┃ *${ucapannya2}*, *${pushname}*
@@ -6720,8 +6720,8 @@ case 'listmenu': case 'list': {
 ┃ *✧ᴄᴀʟᴇɴᴅᴀʀ:* *${thisDay}*, *${day}* 
 ┃ *✧ᴛɪᴍᴇ:* *${moment.tz('Africa/Harare').format('HH:mm:ss')}*
 ┃ 
-┃      ↣𝐘𝐨𝐮𝐭𝐮𝐛𝐞↢ 
-┃https://tinyurl.com/2bghgjfx
+┃      ᴍᴜɴᴀᴠɪʀ
+┃
 ┃
 ┃━━━━━━━━━━━━━━━━━━┃
 ┃                  ᴢɪᴍʙᴏᴛɪɴᴄ
